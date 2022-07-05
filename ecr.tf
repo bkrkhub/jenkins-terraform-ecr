@@ -1,4 +1,4 @@
-resource "aes_ecr_repository" "jenkins" {
+resource "aws_ecr_repository" "jenkins" {
     name = "jenkins"
     iamge_tag_mutability = "MUTABLE"
     image_scanning_configuration {
